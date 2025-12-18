@@ -1,7 +1,7 @@
 # Technical Threat Intelligence Report: "Correos de Costa Rica" Phishing Campaign
 
 **Date of Analysis:** December 18, 2025
-**Analyst:** [Tu Nombre o Nickname]
+**Analyst:** Roy Castro
 **Threat Level:** 🔴 High (Identity Theft & Financial Fraud)
 
 ---
@@ -42,4 +42,5 @@ This report documents a sophisticated phishing campaign targeting users in Costa
 5. **Individual Target Tracking:** The use of a unique hash ID (`id=0e0c4bc3...`) in the URL allows the threat actor to verify which specific email accounts are active and vulnerable, facilitating future "spear-phishing" attempts.
 
 ---
+
 *Report generated for Cybersecurity Portfolio purposes.*
