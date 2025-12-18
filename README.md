@@ -3,6 +3,5 @@
 Welcome to my threat intelligence repository. Here I document deep-dives into active phishing campaigns and malware analysis.
 
 ## 📂 Featured Analysis
-* ./Phishing/Correos_CR_Dec_2025/Phishing_Analysis_Correos_CR.md - *December 2025*
-
+* [Phishing Campaign: Correos de Costa Rica (Eventbrite Abuse)](./Phishing/Correos_CR_Dec_2025/Phishing_Analysis_Correos_CR.md) - *December 2025*
 * * **Additional analyses in progress...** 🚀
