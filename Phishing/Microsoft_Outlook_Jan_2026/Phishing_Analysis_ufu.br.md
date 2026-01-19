@@ -44,3 +44,20 @@ The capture below illustrates the complete social engineering flow:
 The email headers reveal the message originated from a valid university server in Brazil:
 ```text
 From: Protege ahora! <gustavo-barbosa@ufu.br>
+
+By hijacking a legitimate .br academic account, the attacker inherits the domain's reputation. Security filters often whitelist educational domains, allowing the phishing email to land directly in the victim's "Focused" Inbox rather than "Junk".
+
+### B. Cross-Platform Social Engineering (WhatsApp Lure)
+Unusually for a Microsoft-themed phish, the text requests the user to "add their WhatsApp number" ("agregue su número de WhatsApp"). This is a high-confidence indicator of phishing, as Microsoft does not use WhatsApp for enterprise identity verification. This suggests the attacker aims to harvest phone numbers for secondary attacks (Smishing) or account hijacking.
+
+### C. Free Subdomain Abuse
+The attacker utilizes webcindario.com, a free hosting service provided by Miarroba.
+
+URL: protegermiemail3.webcindario.com
+
+Technique: Subdomain generation. The prefix protegermiemail3 (protectmyemail3) is designed to look like a security tool. Using free hosting allows the attacker to spin up new sites immediately if the current one is taken down (Takedown Evasion).
+
+### D. HTML Obfuscation
+The email body uses standard HTML table structures with CSS styling that mimics official Microsoft notifications (font family Aptos, sans-serif and specific hex colors like rgb(0, 114, 198)). The ominous warning "Su cuenta será bloqueada" creates a sense of urgency (Fear Appeal) to force a click without inspection.
+
+Report generated for Cybersecurity Portfolio purposes. Analysis performed on a forwarded sample; original network headers were reconstructed from the message body artifacts.
