@@ -36,7 +36,7 @@ The capture below illustrates the complete social engineering flow:
 3.  **Anomalous Request:** Explicitly asks to link a **WhatsApp** number, a non-standard procedure for Microsoft enterprise security.
 4.  **Malicious Link:** Redirects to a low-reputation free hosting subdomain.
 
-![Full Phishing Analysis](Phishing_Analysis_ufu.br)
+![Full Phishing Analysis](Phishing_Analysis_ufu.br.jpg)
 
 ## 5. Evasion Techniques & Technical Analysis
 
