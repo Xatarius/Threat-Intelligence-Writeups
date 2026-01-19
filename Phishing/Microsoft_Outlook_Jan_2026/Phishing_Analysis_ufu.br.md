@@ -60,4 +60,6 @@ Technique: Subdomain generation. The prefix protegermiemail3 (protectmyemail3) i
 ### D. HTML Obfuscation
 The email body uses standard HTML table structures with CSS styling that mimics official Microsoft notifications (font family Aptos, sans-serif and specific hex colors like rgb(0, 114, 198)). The ominous warning "Su cuenta será bloqueada" creates a sense of urgency (Fear Appeal) to force a click without inspection.
 
-Report generated for Cybersecurity Portfolio purposes. Analysis performed on a forwarded sample; original network headers were reconstructed from the message body artifacts.
+---
+
+*Report generated for Cybersecurity Portfolio purposes. Analysis performed on a forwarded sample; original network headers were reconstructed from the message body artifacts.*
