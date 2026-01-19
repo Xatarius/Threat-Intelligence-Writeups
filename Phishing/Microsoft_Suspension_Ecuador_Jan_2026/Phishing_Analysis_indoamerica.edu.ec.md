@@ -48,6 +48,9 @@ The attacker utilizes a Dynamic DNS provider (`iceiy.com`) to generate the malic
 ### C. Psychological Intimidation (Fear Appeal)
 The subject line "Llamado de atencion" (Attention Call/Warning) is aggressive and typically associated with HR or disciplinary actions. This is designed to induce panic, bypassing the victim's critical thinking.
 
+### D. Adversary Tradecraft & Quality Control
+The phishing kit utilized shows signs of poor quality control, specifically the typographical error in the footer signature (**"Mcrosoft"** instead of "Microsoft"). While the infrastructure setup (Compromised .edu + DDNS) is competent, the payload content reveals a lack of attention to detail, which serves as a high-confidence visual indicator for defenders to identify the fraud.
+
 ---
 
 *Report generated for Cybersecurity Portfolio purposes. Analysis based on email artifacts recovered from a forwarded sample.*
