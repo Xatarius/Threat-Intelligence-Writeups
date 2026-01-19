@@ -1,7 +1,7 @@
 # Technical Threat Intelligence Report: Microsoft Outlook "2FA Verification" Phishing
 
 **Date of Analysis:** January 20, 2026
-**Analyst:** [Tu Nombre de Usuario]
+**Analyst:** Roy Castro
 **Threat Level:** 🔴 High (Credential Harvesting / Account Takeover)
 **Campaign Status:** Active
 
