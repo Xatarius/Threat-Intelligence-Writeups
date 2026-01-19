@@ -42,7 +42,7 @@ The capture below illustrates the complete social engineering flow:
 
 ### A. Compromised Academic Infrastructure (Sender Identity)
 The email headers reveal the message originated from a valid university server in Brazil:
-```text
+
 From: Protege ahora! <gustavo-barbosa@ufu.br>
 
 By hijacking a legitimate .br academic account, the attacker inherits the domain's reputation. Security filters often whitelist educational domains, allowing the phishing email to land directly in the victim's "Focused" Inbox rather than "Junk".
