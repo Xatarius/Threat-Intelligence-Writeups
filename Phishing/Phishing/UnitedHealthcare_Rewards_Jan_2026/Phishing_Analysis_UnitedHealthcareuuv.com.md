@@ -1,7 +1,7 @@
 # Technical Threat Intelligence Report: UnitedHealthcare "Rewards" Phishing
 
 **Date of Analysis:** January 20, 2026
-**Analyst:** [Tu Nombre de Usuario]
+**Analyst:** Roy Castro
 **Threat Level:** 🟠 Medium-High (Personal Data Theft / Fraud)
 **Campaign Status:** Active
 
