@@ -33,17 +33,17 @@ This report analyzes a phishing campaign impersonating **AAA (American Automobil
 
 ## 5. Evasion Techniques & Technical Analysis
 
-1. **Brand Impersonation:**
-   The email uses the official AAA logo and professional photography of a roadside kit to build immediate trust.
+1. **Brand Impersonation & High-Quality Lure:**
+   The email is exceptionally well-crafted, using the official AAA logo and professional photography of a roadside kit. This increases the "pre-attentive" trust of the victim before they inspect technical details.
 
 2. **SPF/DKIM Failure (Spoofing):**
-   The headers indicate an **`spf=fail`**. El servidor en `185.17.146.229` no está autorizado para enviar correos de `aaaqhxzh.com`.
+   The headers indicate an **`spf=fail`**. Although the email claims to be from `aaaqhxzh.com`, the server at `185.17.146.229` is not an authorized sender for that domain. This is a classic indicator of a spoofing attempt.
 
-3. **SafeLinks & IP Infrastructure:**
-   Se utiliza **Microsoft SafeLinks** para envolver la URL maliciosa, ocultando que el destino final es una IP directa (`81.171.12.132`).
+3. **SafeLinks & IP-Based Infrastructure:**
+   The attack leverages **Microsoft SafeLinks** (`na01.safelinks.protection.outlook.com`) to wrap the malicious URL. The underlying destination is a raw IP address (`81.171.12.132`), a common tactic to avoid domain-based reputation filters and take down requests that target registrars.
 
-4. **SCL Rating:**
-   El encabezado **`X-MS-Exchange-Organization-SCL: 8`** confirma que el filtro de Microsoft detectó el correo como spam/phishing de alta confianza.
+4. **SCL Rating (Spam Confidence Level):**
+   The internal Microsoft headers show an **`X-MS-Exchange-Organization-SCL: 8`**. This confirms that the mail filter correctly identified the message as highly likely to be spam/phishing, yet the attacker successfully bypassed initial blocking to reach the "Junk" folder.
 
 ---
 
